@@ -11,6 +11,12 @@ body {
   font-family: 'Poppins', sans-serif; 
   font-size: 1rem;
   text-align: center;
+  color: rgb(55,47,47);
+}
+
+h1,
+h2 {
+  margin: 0;
 }
 
 
@@ -20,11 +26,33 @@ body {
 h1 {
   font-size: 2.25rem;
   font-weight: 400;
+  color: white;
 }
 
 h2 {
-  font-size: 1.1325rem;
+  font-size: 1.2325rem;
   font-weight: 900;
+}
+
+.intro-subtitle,
+.main-subtitle,
+.text-top {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: rgb(248,117,117);
+}
+
+.intro-subtitle {
+  letter-spacing: 0.5px;
+}
+
+.main-title {
+  color: rgb(55,47,47);
+  letter-spacing: 0.5px;
+}
+
+.main-subtitle {
+
 }
 
 .text-top,
@@ -32,3 +60,35 @@ h2 {
   font-size: 0.625rem;
 }
 
+.text-top {
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+
+
+/* intro */
+.intro {
+  background-image: url(../imgs/honk.jpg);
+  background-color: rgb(55,47,47);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.intro-title {
+  margin: 1.5em 0;
+}
+
+.intro-subtitle {
+  margin-bottom: 1em;
+}
+
+.text-top {
+  order: -1;
+}
