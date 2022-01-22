@@ -65,6 +65,11 @@ h2 {
   letter-spacing: 1px;
 }
 
+.btn {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 /* intro */
 .intro {
@@ -78,7 +83,12 @@ h2 {
 .container {
   display: inline-flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 80%;
+}
+
+.container-intro {
+  height: 100%;
 }
 
 .intro-title {
@@ -86,9 +96,52 @@ h2 {
 }
 
 .intro-subtitle {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+
 }
 
 .text-top {
   order: -1;
+}
+
+/* main-content */
+.container-main {
+  width: 70%;
+}
+
+
+.main-title {
+  margin-top: 1.5em;
+}
+
+.main-subtitle {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+/* form */
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+input,
+.btn {
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+  padding: 0.5em 0;
+  font-style: inherit;
+  font-size: inherit;
+}
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  padding: 0.5em 1.5em;
 }
