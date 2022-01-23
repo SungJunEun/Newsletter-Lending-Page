@@ -27,12 +27,12 @@ with Github.
 
 ## Overall Layout
 
-### Desktop version
+- ### Desktop version
 
-![image](https://user-images.githubusercontent.com/60536942/150660576-f92c4286-5a15-4bd3-8c68-4665936e5a93.png)
+    ![image](https://user-images.githubusercontent.com/60536942/150660576-f92c4286-5a15-4bd3-8c68-4665936e5a93.png)
 
-### Mobile version
-![image](https://user-images.githubusercontent.com/60536942/150660530-c0a380d2-939f-489f-89a4-69fd204390dc.png)
+- ### Mobile version
+    ![image](https://user-images.githubusercontent.com/60536942/150660530-c0a380d2-939f-489f-89a4-69fd204390dc.png)
 
 
     
